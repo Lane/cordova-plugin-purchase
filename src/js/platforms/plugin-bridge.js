@@ -146,7 +146,7 @@ window.inappbilling = new InAppBilling();
 
 // That's for compatibility with the unified IAP plugin.
 try {
-    store.inappbilling = window.inappbilling;
+    store.plugin = window.inappbilling;
 }
 catch (e) {}
 
